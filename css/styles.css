@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+:root {
+  --blue-magenta: #883ae1;
+  --light-blue-magenta: #e6d6fc;
+  --light-cyan-blue: #e5eaf0;
+  --light-yellow-green: #fafaf9;
+  --dark-cyan-blue: #20293a;
+  --shadow-blue: #6c727f;
+}
+
+/* Body */
+body {
+  background-color: var(--light-yellow-green);
+  font-family: "Fredoka";
+}
+
+/* Card */
+.card {
+  width: 368px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 164px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+/* Card Text Color */
+.card .card-body,
+.card .card-footer {
+  color: var(--shadow-blue);
+}
+
+/* Card Header */
+.card .card-header {
+  padding: 16px 16px 0 16px;
+}
+/* Card Image */
+.card .card-header img {
+  border-radius: 10px;
+}
+
+/* Card Body */
+.card .card-body {
+  margin-top: 16px;
+  padding: 0 16px 0 16px;
+}
+/* Card Tag */
+.card .card-body span {
+  font-size: 10px;
+  color: var(--blue-magenta);
+  background-color: var(--light-blue-magenta);
+  border-radius: 20px;
+  padding: 6px 16px 6px 16px;
+}
+/* Card Title */
+.card .card-body h1 {
+  font-size: 18px;
+  color: var(--dark-cyan-blue);
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+/* Card Text */
+.card .card-body p {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Card Footer */
+.card .card-footer {
+  border-top: 1px solid var(--light-cyan-blue);
+  position: relative;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 16px 20px 16px;
+}
